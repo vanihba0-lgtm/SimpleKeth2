@@ -1,0 +1,74 @@
+version: "3.8"
+
+services:
+  db:
+    image: timescale/timescaledb:latest-pg14
+    container_name: simpleketh_db
+    environment:
+      POSTGRES_DB: simpleketh
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:alpine
+    container_name: simpleketh_redis
+    ports:
+      - "6379:6379"
+
+  backend-core:
+    build:
+      context: ./backend-core
+      dockerfile: Dockerfile
+    container_name: simpleketh_core
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_HOST=db
+      - DB_NAME=simpleketh
+      - DB_USER=postgres
+      - DB_PASSWORD=postgrespassword
+      - REDIS_URL=redis://redis:6379/0
+      - ML_SERVICE_URL=http://service-ml:5001
+      - ENGINE_SERVICE_URL=http://service-engine:8080
+      - NOTIFICATION_SERVICE_URL=http://service-notification:4000
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_started
+
+  service-ml:
+    build:
+      context: ./service-ml
+      dockerfile: Dockerfile
+    container_name: simpleketh_ml
+    ports:
+      - "5001:5001"
+
+  service-notification:
+    build:
+      context: ./service-notification
+      dockerfile: Dockerfile
+    container_name: simpleketh_notification
+    ports:
+      - "4000:4000"
+
+  service-engine:
+    build:
+      context: ./service-engine
+      dockerfile: Dockerfile
+    container_name: simpleketh_engine
+    ports:
+      - "8080:8080"
+
+volumes:
+  pgdata:

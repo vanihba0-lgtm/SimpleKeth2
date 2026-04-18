@@ -1,0 +1,7 @@
+Flask>=3.0,<4.0
+pandas>=2.2,<3.0
+scikit-learn>=1.4,<2.0
+xgboost>=2.0,<3.0
+tensorflow-cpu>=2.16,<3.0; sys_platform != "darwin" or platform_machine != "arm64"
+tensorflow-macos>=2.16,<3.0; sys_platform == "darwin" and platform_machine == "arm64"
+gunicorn>=22.0,<23.0

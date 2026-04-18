@@ -1,0 +1,158 @@
+{
+  "dashboard": {
+    "title": "[kn] Dashboard",
+    "heroTitle": "[kn] Know Exactly When & Where to Sell Your Crops",
+    "heroSubtitle": "[kn] Stay updated with price changes",
+    "sellLaterTitle": "[kn] What if I sell later?",
+    "sellLaterSubtitle": "[kn] Get instant AI recommendations on whether to sell now or hold",
+    "topMandis": "[kn] Top mandis ranked by net profit",
+    "mandiHeatmap": "[kn] All Mandis — Price Heatmap",
+    "visualOverview": "[kn] Visual overview of prices across mandis",
+    "stats": {
+      "crops": "[kn] 5+ Crops",
+      "mandis": "[kn] 50+ Mandis",
+      "profit": "[kn] 15-30%"
+    }
+  },
+  "market": {
+    "title": "[kn] Market",
+    "searchPlaceholder": "[kn] Search mandis...",
+    "comparison": "[kn] Mandis Compared",
+    "bestNetProfit": "[kn] Best Net Profit",
+    "highestPrice": "[kn] Highest Price",
+    "bestBadge": "[kn] BEST"
+  },
+  "predictions": {
+    "title": "[kn] Predictions",
+    "trend": "[kn] Price Trend",
+    "predictedPrice": "[kn] Predicted Price",
+    "insights": "[kn] Key Insights",
+    "uptrend": "[kn] Short-term Uptrend",
+    "correction": "[kn] Correction Expected",
+    "actual": "[kn] Actual",
+    "predicted": "[kn] Predicted",
+    "confidence": "[kn] {pct}% confident",
+    "holdLabel": "[kn] Hold for {days} days",
+    "levelTitle": "[kn] Price Level",
+    "level": {
+      "high": "[kn] High (Best)",
+      "medium": "[kn] Medium",
+      "low": "[kn] Low"
+    }
+  },
+  "simulator": {
+    "title": "[kn] Simulator",
+    "inputHeader": "[kn] Enter Your Crop Details",
+    "simulateButton": "[kn] Simulate Scenario",
+    "costs": {
+      "transport": "[kn] Transport Cost",
+      "storage": "[kn] Storage Cost",
+      "losses": "[kn] Spoilage/Losses"
+    },
+    "statsTitle": "[kn] Scenario Stats",
+    "breakdown": "[kn] Day-by-Day Breakdown",
+    "extraGain": "[kn] Extra Gain by Waiting",
+    "maxProfit": "[kn] Max Possible Profit",
+    "bestDay": "[kn] Best Selling Day",
+    "todayProfit": "[kn] Sell Today Profit",
+    "advisory": "[kn] These simulations are based on AI predictions and historical data. Actual prices may vary due to weather and market conditions. Use this as a guide, not a guarantee."
+  },
+  "alerts": {
+    "title": "[kn] Alerts",
+    "allCaughtUp": "[kn] All caught up!",
+    "noAlerts": "[kn] No alerts in this category right now.",
+    "filters": {
+      "all": "[kn] All Alerts",
+      "opportunity": "[kn] Opportunities",
+      "warning": "[kn] Warnings",
+      "urgent": "[kn] Urgent"
+    },
+    "time": {
+      "now": "[kn] Just now",
+      "hours": "[kn] {h}h ago",
+      "days": "[kn] {d}d ago"
+    }
+  },
+  "profile": {
+    "title": "[kn] Profile",
+    "farmerId": "[kn] Farmer ID",
+    "phone": "[kn] Phone Number",
+    "totalLand": "[kn] Total Land",
+    "myCrops": "[kn] My Crops",
+    "activity": "[kn] Activity Summary",
+    "save": "[kn] Save Profile",
+    "edit": "[kn] Edit Profile",
+    "stats": {
+      "profitableSells": "[kn] Profitable Sells",
+      "avgBoost": "[kn] Avg. Profit Boost",
+      "alertsActed": "[kn] Alerts Acted On",
+      "recommendations": "[kn] Recommendations"
+    },
+    "timeframe": {
+      "thisMonth": "[kn] this month",
+      "allTime": "[kn] all time",
+      "vsMarket": "[kn] vs market avg"
+    }
+  },
+  "settings": {
+    "title": "[kn] Settings",
+    "subtitle": "[kn] Customize your SimpleKeth experience",
+    "notifications": "[kn] Account Notifications",
+    "appearance": "[kn] App Appearance",
+    "language": "[kn] Language / भाषा",
+    "darkMode": "[kn] Dark Mode",
+    "smsLabel": "[kn] SMS Alerts",
+    "smsDesc": "[kn] Get price alerts via SMS",
+    "voiceLabel": "[kn] Voice Alerts",
+    "voiceDesc": "[kn] Receive automated voice calls",
+    "pushLabel": "[kn] Push Notifications",
+    "pushDesc": "[kn] Browser push notifications",
+    "more": "[kn] More",
+    "privacy": "[kn] Privacy & Data",
+    "help": "[kn] Help & Support"
+  },
+  "navigation": {
+    "dashboard": "[kn] Dashboard",
+    "market": "[kn] Market",
+    "predictions": "[kn] Predictions",
+    "simulator": "[kn] Simulator",
+    "map": "[kn] Mandi Map",
+    "alerts": "[kn] Alerts",
+    "profile": "[kn] Profile",
+    "settings": "[kn] Settings",
+    "logout": "[kn] Logout"
+  },
+  "common": {
+    "hello": "[kn] Hello,",
+    "perQuintal": "[kn] per quintal",
+    "acres": "[kn] acres",
+    "distance": "[kn] Distance",
+    "profit": "[kn] Profit",
+    "netProfit": "[kn] Net Profit",
+    "currentPrice": "[kn] Current Price",
+    "quantityKg": "[kn] Quantity (kg)",
+    "location": "[kn] Your Location",
+    "save": "[kn] Save Profile",
+    "edit": "[kn] Edit Profile",
+    "loading": "[kn] Loading...",
+    "error": "[kn] Error",
+    "retry": "[kn] Retry",
+    "day": "[kn] Day",
+    "perKg": "[kn] per kg",
+    "bestMandi": "[kn] Best Mandi",
+    "fromToday": "[kn] from today",
+    "importantNote": "[kn] Important Note",
+    "selectCrop": "[kn] Select Your Crop",
+    "getRecommendation": "[kn] Get Recommendation"
+  },
+  "auth": {
+    "login": "[kn] Farmer Login",
+    "phone": "[kn] Phone Number",
+    "otp": "[kn] 6-Digit OTP",
+    "send": "[kn] Send OTP",
+    "verify": "[kn] Verify OTP",
+    "invalidPhone": "[kn] Invalid phone number",
+    "failed": "[kn] OTP verification failed",
+    "networkError": "[kn] Network error, please try again"
+  }
+}

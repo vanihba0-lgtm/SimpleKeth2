@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+/* ===== SIMPLEKETH DESIGN SYSTEM ===== */
+@theme {
+  /* Primary Greens */
+  --color-primary: #2F5D3A;
+  --color-primary-button: #4E7C4F;
+  --color-primary-secondary: #7DAA6A;
+
+  /* Earth Tones */
+  --color-earth-rich: #5A3E2B;
+  --color-earth-clay: #8B5E3C;
+  --color-earth-sand: #D9C2A7;
+
+  /* Backgrounds */
+  --color-bg-main: #F7F4EF;
+  --color-bg-section: #EFE6DA;
+  --color-bg-highlight: #E6F0E8;
+
+  /* Decision Colors */
+  --color-profit: #3FA34D;
+  --color-loss: #B23A3A;
+  --color-warning: #C89B3C;
+
+  /* Neutral */
+  --color-text-primary: #2A2A2A;
+  --color-text-secondary: #6B6B6B;
+  --color-border: #DDD6CC;
+
+  /* Font Sizes */
+  --font-size-hero: 3.25rem;
+  --font-size-h2: 2.125rem;
+  --font-size-h3: 1.5rem;
+  --font-size-body: 1.0625rem;
+  --font-size-small: 0.875rem;
+
+  /* Spacing */
+  --spacing-section: 5rem;
+
+  /* Radius */
+  --radius-button: 0.75rem;
+  --radius-card: 0.75rem;
+
+  /* Shadows */
+  --shadow-card: 0 2px 16px 0 rgba(47, 93, 58, 0.07);
+  --shadow-card-hover: 0 8px 32px 0 rgba(47, 93, 58, 0.13);
+}
+
+/* ===== BASE STYLES ===== */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background-color: var(--color-bg-main);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-body);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sora', system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--color-text-primary);
+}
+
+/* ===== DECISION TEXT ===== */
+.decision-text {
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  font-family: 'Sora', system-ui, sans-serif;
+}
+
+.profit-text {
+  color: var(--color-profit);
+  font-weight: 800;
+  font-family: 'Sora', system-ui, sans-serif;
+}
+
+.loss-text {
+  color: var(--color-loss);
+  font-weight: 800;
+  font-family: 'Sora', system-ui, sans-serif;
+}
+
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-section);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary-secondary);
+  border-radius: 3px;
+}
+
+/* ===== SELECTION ===== */
+::selection {
+  background-color: var(--color-bg-highlight);
+  color: var(--color-primary);
+}
+
+/* ===== FOCUS STYLES ===== */
+:focus-visible {
+  outline: 2px solid var(--color-primary-button);
+  outline-offset: 2px;
+}
+
+/* ===== ANIMATION KEYFRAMES ===== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}

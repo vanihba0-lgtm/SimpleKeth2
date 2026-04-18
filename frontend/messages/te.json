@@ -1,0 +1,158 @@
+{
+  "common": {
+    "save": "ప్రొఫైల్ సేవ్",
+    "edit": "ప్రొఫైల్ ఎడిట్",
+    "loading": "లోడ్ అవుతోంది...",
+    "error": "లోపం",
+    "retry": "మళ్ళీ ప్రయత్నించండి",
+    "day": "రోజు",
+    "perKg": "కిలోకు",
+    "bestMandi": "ఉత్తమ మండి",
+    "fromToday": "నేటి నుండి",
+    "importantNote": "ముఖ్య గమనిక",
+    "location": "మీ ప్రాంతం",
+    "distance": "దూరం",
+    "currentPrice": "ప్రస్తుత ధర",
+    "netProfit": "నికర లాభం",
+    "profit": "లాభం",
+    "perQuintal": "క్వింటాల్‌కు",
+    "acres": "ఎకరాలు",
+    "quantityKg": "పరిమాణం (కిలోలు)",
+    "hello": "[te] Hello,",
+    "selectCrop": "[te] Select Your Crop",
+    "getRecommendation": "[te] Get Recommendation"
+  },
+  "dashboard": {
+    "title": "డాష్‌బోర్డ్",
+    "heroTitle": "మీ పంటలను ఎప్పుడు, ఎక్కడ అమ్మాలో కచ్చితంగా తెలుసుకోండి",
+    "heroSubtitle": "ధరలో మార్పులను తెలుసుకోండి",
+    "sellLaterTitle": "నేను తర్వాత అమ్మితే?",
+    "sellLaterSubtitle": "ఇప్పుడే అమ్మాలో లేక ఆగాలో వెంటనే AI సిఫార్సులు పొందండి",
+    "topMandis": "లాభం ప్రాతిపదికన ఉత్తమ మండీలు",
+    "visualOverview": "మండీలలో ధరల దృశ్య సారాంశం",
+    "stats": {
+      "crops": "5+ పంటలు",
+      "mandis": "50+ మండీలు",
+      "profit": "15-30%"
+    },
+    "mandiHeatmap": "[te] All Mandis — Price Heatmap"
+  },
+  "navigation": {
+    "dashboard": "డాష్‌బోర్డ్",
+    "market": "మార్కెట్",
+    "predictions": "అంచనాలు",
+    "simulator": "సిమ్యులేటర్",
+    "map": "మండి మ్యాప్",
+    "alerts": "అలర్ట్‌లు",
+    "profile": "ప్రొఫైల్",
+    "settings": "సెట్టింగ్‌లు",
+    "logout": "[te] Logout"
+  },
+  "market": {
+    "title": "మార్కెట్ పోలిక",
+    "searchPlaceholder": "మండీలను వెతకండి...",
+    "bestNetProfit": "ఉత్తమ నికర లాభం",
+    "highestPrice": "అత్యధిక ధర",
+    "comparison": "పోల్చిన మండీలు",
+    "bestBadge": "ఉత్తమ"
+  },
+  "predictions": {
+    "title": "ధర అంచనాలు",
+    "trend": "ధరల ధోరణి",
+    "actual": "వాస్తవ",
+    "predicted": "అంచనా",
+    "insights": "ముఖ్య అంచనాలు",
+    "uptrend": "స్వల్పకాలిక పెరుగుదల",
+    "correction": "మార్పు అవకాశం",
+    "levelTitle": "ధర స్థాయి",
+    "level": {
+      "high": "ఎక్కువ (ఉత్తమ)",
+      "medium": "మధ్యస్థ",
+      "low": "తక్కువ"
+    },
+    "predictedPrice": "[te] Predicted Price",
+    "confidence": "[te] {pct}% confident",
+    "holdLabel": "[te] Hold for {days} days"
+  },
+  "simulator": {
+    "title": "లాభం సిమ్యులేటర్",
+    "todayProfit": "నేడు అమ్మితే లాభం",
+    "bestDay": "అమ్మకానికి ఉత్తమ రోజు",
+    "maxProfit": "గరిష్ట సాధ్య లాభం",
+    "extraGain": "ఆగడం వల్ల అదనపు లాభం",
+    "breakdown": "రోజువారీ వివరాలు",
+    "advisory": "ఈ అంచనాలు AI మరియు చారిత్రక డేటా ఆధారంగా ఉంటాయి. వాతావరణం మరియు మార్కెట్ పరిస్థితుల వల్ల వాస్తవ ధరలు మారవచ్చు.",
+    "costs": {
+      "transport": "రవాణా",
+      "storage": "నిల్వ",
+      "losses": "నష్టాలు"
+    },
+    "inputHeader": "[te] Enter Your Crop Details",
+    "simulateButton": "[te] Simulate Scenario",
+    "statsTitle": "[te] Scenario Stats"
+  },
+  "alerts": {
+    "title": "అలర్ట్‌లు",
+    "allCaughtUp": "అన్నీ చూశారు!",
+    "noAlerts": "ఈ విభాగంలో అలర్ట్‌లు లేవు.",
+    "filters": {
+      "all": "అన్ని అలర్ట్‌లు",
+      "opportunity": "అవకాశాలు",
+      "warning": "హెచ్చరికలు",
+      "urgent": "అత్యవసరం"
+    },
+    "time": {
+      "now": "ఇప్పుడే",
+      "hours": "{h}గంటల క్రితం",
+      "days": "{d}రోజుల క్రితం"
+    }
+  },
+  "profile": {
+    "title": "రైతు ప్రొఫైల్",
+    "farmerId": "రైతు ఐడి",
+    "phone": "ఫోన్ నంబర్",
+    "totalLand": "మొత్తం భూమి",
+    "myCrops": "నా పంటలు",
+    "activity": "కార్యకలాపాల సారాంశం",
+    "save": "ప్రొఫైల్ సేవ్",
+    "edit": "ప్రొఫైల్ ఎడిట్",
+    "stats": {
+      "profitableSells": "లాభదాయక అమ్మకాలు",
+      "avgBoost": "సగటు లాభం పెరుగుదల",
+      "alertsActed": "చర్య తీసుకున్న అలర్ట్‌లు",
+      "recommendations": "సూచనలు"
+    },
+    "timeframe": {
+      "thisMonth": "ఈ నెల",
+      "allTime": "మొత్తం",
+      "vsMarket": "మార్కెట్ సగటుతో పోలిస్తే"
+    }
+  },
+  "settings": {
+    "title": "సెట్టింగ్‌లు",
+    "subtitle": "మీ సింపుల్‌కేత్ అనుభవాన్ని మెరుగుపరచుకోండి",
+    "notifications": "ఖాతా అలర్ట్‌లు",
+    "appearance": "యాప్ రూపం",
+    "language": "భాష / Language",
+    "darkMode": "డార్క్ మోడ్",
+    "smsLabel": "SMS అలర్ట్‌లు",
+    "smsDesc": "SMS ద్వారా ధర అలర్ట్‌లను పొందండి",
+    "voiceLabel": "వాయిస్ అలర్ట్‌లు",
+    "voiceDesc": "ఆటోమేటెడ్ వాయిస్ కాల్స్ పొందండి",
+    "pushLabel": "పుష్ నోటిఫికేషన్లు",
+    "pushDesc": "బ్రౌజర్ పుష్ నోటిఫికేషన్‌లు",
+    "more": "మరిన్ని",
+    "privacy": "గోప్యత & డేటా",
+    "help": "సహాయం & మద్దతు"
+  },
+  "auth": {
+    "login": "[te] Farmer Login",
+    "phone": "[te] Phone Number",
+    "otp": "[te] 6-Digit OTP",
+    "send": "[te] Send OTP",
+    "verify": "[te] Verify OTP",
+    "invalidPhone": "[te] Invalid phone number",
+    "failed": "[te] OTP verification failed",
+    "networkError": "[te] Network error, please try again"
+  }
+}

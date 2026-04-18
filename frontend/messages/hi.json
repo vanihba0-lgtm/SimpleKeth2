@@ -1,0 +1,158 @@
+{
+  "common": {
+    "save": "प्रोफ़ाइल सहेजें",
+    "edit": "प्रोफ़ाइल संपादित करें",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "retry": "पुनः प्रयास करें",
+    "day": "दिन",
+    "perKg": "प्रति किलो",
+    "bestMandi": "सर्वश्रेष्ठ मंडी",
+    "fromToday": "आज से",
+    "importantNote": "महत्वपूर्ण नोट",
+    "location": "आपका स्थान",
+    "distance": "दूरी",
+    "currentPrice": "वर्तमान मूल्य",
+    "netProfit": "शुद्ध लाभ",
+    "profit": "लाभ",
+    "perQuintal": "प्रति क्विंटल",
+    "acres": "एकड़",
+    "quantityKg": "मात्रा (किग्रा)",
+    "hello": "[hi] Hello,",
+    "selectCrop": "[hi] Select Your Crop",
+    "getRecommendation": "[hi] Get Recommendation"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "heroTitle": "जानें कि अपनी फ़सलें कब और कहाँ बेचनी हैं",
+    "heroSubtitle": "मूल्य परिवर्तन के साथ अपडेट रहें",
+    "sellLaterTitle": "अगर मैं बाद में बेचूं तो क्या होगा?",
+    "sellLaterSubtitle": "अभी बेचें या रुकें पर एआई सिफारिशें प्राप्त करें",
+    "topMandis": "शुद्ध लाभ द्वारा शीर्ष मंडियों की सूची",
+    "visualOverview": "मंडियों में कीमतों का दृश्य अवलोकन",
+    "stats": {
+      "crops": "5+ फसलें",
+      "mandis": "50+ मंडियां",
+      "profit": "15-30%"
+    },
+    "mandiHeatmap": "[hi] All Mandis — Price Heatmap"
+  },
+  "navigation": {
+    "dashboard": "डैशबोर्ड",
+    "market": "बाज़ार",
+    "predictions": "अनुमान",
+    "simulator": "सिम्युलेटर",
+    "map": "मंडी मैप",
+    "alerts": "अलर्ट",
+    "profile": "प्रोफ़ाइल",
+    "settings": "सेटिंग्स",
+    "logout": "[hi] Logout"
+  },
+  "market": {
+    "title": "बाज़ार तुलना",
+    "searchPlaceholder": "मंडियां खोजें...",
+    "bestNetProfit": "सर्वश्रेष्ठ शुद्ध लाभ",
+    "highestPrice": "उच्चतम मूल्य",
+    "comparison": "मंडियों की तुलना की गई",
+    "bestBadge": "सर्वश्रेष्ठ"
+  },
+  "predictions": {
+    "title": "मूल्य अनुमान",
+    "trend": "मूल्य रुझान",
+    "actual": "वास्तविक",
+    "predicted": "अनुमानित",
+    "insights": "मुख्य अंतर्दृष्टि",
+    "uptrend": "अल्पकालिक तेजी",
+    "correction": "सुधार की उम्मीद",
+    "levelTitle": "मूल्य स्तर",
+    "level": {
+      "high": "उच्च (सर्वश्रेष्ठ)",
+      "medium": "मध्यम",
+      "low": "कम"
+    },
+    "predictedPrice": "[hi] Predicted Price",
+    "confidence": "[hi] {pct}% confident",
+    "holdLabel": "[hi] Hold for {days} days"
+  },
+  "simulator": {
+    "title": "लाभ सिम्युलेटर",
+    "todayProfit": "आज बेचने पर लाभ",
+    "bestDay": "बિક્રી के लिए सबसे अच्छा दिन",
+    "maxProfit": "अधिकतम संभावित लाभ",
+    "extraGain": "प्रतीक्षा से अतिरिक्त लाभ",
+    "breakdown": "दिन-ब-दिन विवरण",
+    "advisory": "ये अनुमान एआई भविष्यवाणियों और ऐतिहासिक डेटा पर आधारित हैं। वास्तविक कीमतें मौसम और बाजार की स्थितियों के कारण भिन्न हो सकती हैं।",
+    "costs": {
+      "transport": "परिवहन",
+      "storage": "भंडारण",
+      "losses": "नुकसान"
+    },
+    "inputHeader": "[hi] Enter Your Crop Details",
+    "simulateButton": "[hi] Simulate Scenario",
+    "statsTitle": "[hi] Scenario Stats"
+  },
+  "alerts": {
+    "title": "अलर्ट",
+    "allCaughtUp": "सब पढ़ लिया गया!",
+    "noAlerts": "इस श्रेणी में अभी कोई अलर्ट नहीं है.",
+    "filters": {
+      "all": "सभी अलर्ट",
+      "opportunity": "अवसर",
+      "warning": "चेतावनी",
+      "urgent": "अत्यावश्यक"
+    },
+    "time": {
+      "now": "अभी-अभी",
+      "hours": "{h}घंटे पहले",
+      "days": "{d}दिन पहले"
+    }
+  },
+  "profile": {
+    "title": "किसान प्रोफ़ाइल",
+    "farmerId": "किसान आईडी",
+    "phone": "फ़ोन नंबर",
+    "totalLand": "कुल भूमि",
+    "myCrops": "मेरी फ़सलें",
+    "activity": "गतिविधि सारांश",
+    "save": "प्रोफ़ाइल सहेजें",
+    "edit": "प्रोफ़ाइल संपादित करें",
+    "stats": {
+      "profitableSells": "लाभदायक बिक्री",
+      "avgBoost": "औसत लाभ वृद्धि",
+      "alertsActed": "अलर्ट पर कार्रवाई",
+      "recommendations": "सुझाव"
+    },
+    "timeframe": {
+      "thisMonth": "इस महीने",
+      "allTime": "पूरे समय",
+      "vsMarket": "बनाम बाजार औसत"
+    }
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "subtitle": "अपने सिंपलकेथ अनुभव को अनुकूलित करें",
+    "notifications": "खाता अलर्ट",
+    "appearance": "ऐप का स्वरूप",
+    "language": "भाषा / Language",
+    "darkMode": "डार्क मोड",
+    "smsLabel": "एसएमएस अलर्ट",
+    "smsDesc": "एसएमएस के माध्यम से मूल्य अलर्ट प्राप्त करें",
+    "voiceLabel": "वॉयस अलर्ट",
+    "voiceDesc": "स्वचालित वॉयस कॉल प्राप्त करें",
+    "pushLabel": "पुश नोटिफिकेशन",
+    "pushDesc": "ब्राउज़र पुश नोटिफिकेशन",
+    "more": "अधिक",
+    "privacy": "गोपनीयता और डेटा",
+    "help": "सहायता और सहायता"
+  },
+  "auth": {
+    "login": "[hi] Farmer Login",
+    "phone": "[hi] Phone Number",
+    "otp": "[hi] 6-Digit OTP",
+    "send": "[hi] Send OTP",
+    "verify": "[hi] Verify OTP",
+    "invalidPhone": "[hi] Invalid phone number",
+    "failed": "[hi] OTP verification failed",
+    "networkError": "[hi] Network error, please try again"
+  }
+}
